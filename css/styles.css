@@ -1,5 +1,5 @@
 .card-img-overlay{
-    padding-top: 100px;
+    padding-top: 90px;
     margin-left: 350px; 
 }
 .card-title1{
@@ -10,9 +10,15 @@
 }
 .img1{
     margin-left: 150px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
 }
-.text-center{
-    padding-top: 100px;
+.img2{
+    padding-top: 90px;
     margin-right: 300px; 
+}
+h5{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
