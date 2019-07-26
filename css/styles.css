@@ -1,12 +1,16 @@
 .card-img-overlay{
-    padding-top: 90px;
+    padding-top: 100px;
     margin-left: 350px; 
 }
 .card-title1{
     padding-left: 100px;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
 }
 .card-title{
     padding-left: 20px;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
 }
 .img1{
     margin-left: 150px;
@@ -16,9 +20,17 @@
     padding-top: 90px;
     margin-right: 300px; 
 }
+p{
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+}
 h5{
     padding-top: 50px;
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+/* h4{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+} */
