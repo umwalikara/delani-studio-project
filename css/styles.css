@@ -4,12 +4,10 @@
 }
 .card-title1{
     padding-left: 100px;
-    /* font-weight: bold; */
     font-family: 'Roboto', sans-serif;
 }
 .card-title{
     padding-left: 20px;
-    /* font-weight: bold; */
     font-family: 'Roboto', sans-serif;
 }
 .img1{
@@ -21,7 +19,6 @@
     margin-right: 300px; 
 }
 p{
-    /* font-weight: bold; */
     font-family: 'Roboto', sans-serif;
 }
 h5{
@@ -37,5 +34,8 @@ h2{
 }
 .form-control{
     background: transparent;
-    border-radius: none;
+    border-radius: 0px;
 }
+::placeholder {
+    color: white;
+  }
