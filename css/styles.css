@@ -36,6 +36,9 @@ h2{
     background: transparent;
     border-radius: 0px;
 }
-::placeholder {
+/* ::placeholder {
     color: white;
-  }
+  } */
+.s-paragraph{
+    display: none;
+}
