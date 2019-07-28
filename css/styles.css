@@ -1,28 +1,31 @@
 #frst-i{
-    padding-top: 100px;
-    margin-left: 350px; 
+    padding-top: 200px;
+    margin-left: 500px; 
 }
 .card-title1{
-    padding-left: 100px;
+    padding-top: 30px;
+    padding-left: 300px;
     font-family: 'Roboto', sans-serif;
 }
 .card-title{
-    padding-left: 20px;
+    padding-left: 200px;
     font-family: 'Roboto', sans-serif;
 }
 .img1{
-    margin-left: 150px;
-    padding-bottom: 100px;
+    margin-left: 350px;
+    padding-top: 150px;
 }
 .img2{
-    padding-top: 90px;
-    margin-right: 300px; 
+    padding-top: 300px;
+    margin-right: 500px; 
 }
-p{
+#main-p{
+    margin-left: 170px;
     font-family: 'Roboto', sans-serif;
 }
 h5{
-    padding-top: 50px;
+    padding-top: 20px;
+    margin-right: 150px;
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -32,16 +35,37 @@ h2{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+.project:hover .word{
+    height: 100%;
+    background-color: #faf8f67d;
+    color: #fff;
+    position: absolute;
+    width: 90%;
+    padding: 5em;
+    top:0;
+}
+.word{
+    color: transparent;
+}
 .form-control{
     background: transparent;
     border-radius: 0px;
 }
-/* ::placeholder {
+input[type="text"]::-webkit-input-placeholder{
     color: white;
-  } */
+}
+input[type="email"]::-webkit-input-placeholder{
+    color: white;
+}
+input[type="text"]::-webkit-input-placeholder{
+    color: white;
+}
+textarea[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+    }
 .s-paragraph{
     display: none;
 }
 #ok{
-    margin-left: 500px;
+    margin-left: 850px;
 }
