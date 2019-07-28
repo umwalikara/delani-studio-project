@@ -23,7 +23,20 @@ $(document).ready(function(){
         $("#icon-pro").toggle();
         $("#p-pro").toggle();
     });
-    $("#ok").click(function(event){
+    //hover
+    // $('.word').hide();
+    // $('img').animate({
+    //     opacity:1  
+    // });
+    // $('img').hover(function() {
+    //     $(this).stop().animate({opacity:.4},200);
+    //     $('.word').fadeIn();
+
+    // }, function() {
+    //     $(this).stop().animate({opacity:1},200)
+    //     $('.word').fadeOut();
+    // });
+    $("#ok").click(function(fedback){
         var name=$("#name").val();
         var email=$("#email").val();
         var message=$("#comment").val();
@@ -31,8 +44,8 @@ $(document).ready(function(){
             alert("Please, fill the required fields!");
         }
         else{
-            alert(name+ ", we have received your message. Thank you for reaching out to us!");
+            alert(name+ ", we have received your message. Thank you for your comment!");
         }
-        event.preventDefault();
+        fedback.preventDefault();
     });
 });
