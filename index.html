@@ -13,7 +13,7 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="card bg-dark text-white">
             <img src="images/backgrounds/h_img.jpg" class="img-fluid" alt="Responsive image">
             <div class="card-img-overlay" id="frst-i">
@@ -22,23 +22,25 @@
                 </div>
                 <h1 class="card-title1">WELCOME</h1>
                 <h1 class="card-title">TO DELANI STUDIO</h1>
-                <p class="card-text">Amazing People Are Making Design In A Fun Environment</p>
+                <p class="card-text" id="main-p">Amazing People Are Making Design In A Fun Environment</p>
                 <div class="img2">
                     <img src="images/logo/mouse_click.png" class="rounded mx-auto d-block" alt="...">
                 </div>
             </div>
         </div>
-        <h5>ABOUT US</h5>
-        <div class="text-center">
-            <p class="card-text">When you work with us, you are part of a team of committed collaborators.All aspects pf our software developmentprocess are intergrated, interactive and agile.</p>
-            <p class="card-text">Our approach unifies, development and product management to create exceptional products.</p>
-            <p class="card-text">We start each project by undestanding your business goals, the user's needs and the product requirements</p>
-            <p class="card-text">Then we help transalte them into effective and elegant solutions.</p>
+        <div class="container">
+            <h5>ABOUT US</h5>
+            <div class="text-center" style="margin-top:30px;">
+                <p class="card-text">When you work with us, you are part of a team of committed collaborators.All aspects pf our software developmentprocess are intergrated, interactive and agile.</p>
+                <p class="card-text">Our approach unifies, development and product management to create exceptional products.</p>
+                <p class="card-text">We start each project by undestanding your business goals, the user's needs and the product requirements</p>
+                <p class="card-text">Then we help transalte them into effective and elegant solutions.</p>
+            </div>
         </div>
-        <div class="card bg-dark text-center text-white ">
+        <div class="card bg-dark text-center text-white "style="margin-top:40px;">
             <img src="images/backgrounds/s_image.jpg" class="card-img" alt="...">
             <div class="card-img-overlay">
-                <h5 class="card-title">SERVICES</h5>
+                <h5 class="card-title" style="margin-top:70px; margin-right: 300px;">SERVICES</h5>
                 <div>
                     <p class="card-text">Before we sign a contract or write a line of code our team will spaend the necessary time needed to understand your vision</p>
                     <p class="card-text">The outcome of this scoping session ia proposal or high-level statement of work.</p>
@@ -72,31 +74,39 @@
         <div class="container text-center">
             <h5>PORTFOLIO</h5>
             <div class="row" style="margin-top:30px;">
-                <div class="col-md-3">
-                    <img src="images/portfolio/work4.jpg" class="card-img-top">      
+                <div class="col-md-3 project">
+                    <img src="images/portfolio/work4.jpg" class="card-img-top">  
+                    <div class="word">image1</div>    
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work3.jpg" class="card-img-top">
+                    <div class="word">image2</div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work2.jpg" class="card-img-top" >
+                    <div class="word">image3</div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work1.jpg" class="card-img-top">
+                    <div class="word">image4</div> 
                 </div>
             </div>
             <div class="row" style="margin-top:30px;">
-                <div class="col-md-3" >
-                    <img src="images/portfolio/work8.jpg" class="card-img-top">      
+                <div class="col-md-3 project" >
+                    <img src="images/portfolio/work8.jpg" class="card-img-top">   
+                    <div class="word">image5</div>    
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work7.jpg" class="card-img-top">
+                    <div class="word">image6</div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work6.jpg" class="card-img-top" >
+                    <div class="word">image7</div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 project">
                     <img src="images/portfolio/work5.jpg" class="card-img-top">
+                    <div class="word">image8</div> 
                 </div>
             </div>
         </div> 
@@ -115,7 +125,7 @@
                     </div>
                     <div class="form-group row justify-content-center">
                         <div class="form-group col-md-8 ">
-                            <textarea class="form-control" rows="7" id="comment" placeholder="Your message here..."></textarea>
+                            <textarea class="form-control" rows="15" id="comment" type="text" placeholder="Your message here..."></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -140,6 +150,6 @@
         <div class="text-center py-4">
             <P>DELANI STUDIO <br>2019 </P>
         </div>
-    </div>
+    <!-- </div> -->
 </body>
 </html>
