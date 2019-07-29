@@ -35,17 +35,9 @@ h2{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
-.project:hover .word{
-    height: 100%;
-    background-color: #faf8f67d;
-    color: #fff;
-    position: absolute;
-    width: 90%;
-    padding: 5em;
-    top:0;
-}
-.word{
-    color: transparent;
+#word,#word2,#word3,#word4,#word5,#word6,#word7,#word8{
+    position: relative;
+    top: -100px;
 }
 .form-control{
     background: transparent;
