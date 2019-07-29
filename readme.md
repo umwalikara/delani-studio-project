@@ -9,6 +9,6 @@ This website will help the people who work with us.When you work with us, you ar
 ## Technologies Used
 I use bootstrap, css, javascript and jQuery
 ## Support and contact details
-For more information contact me on Email: https://github.com/umwalikara/delani-studio-project
+For more information contact me on Email: umwaliclara@gmail.com
 ### License
 Copyright (c) 2019 **UMWALI Clara**
